@@ -10,10 +10,9 @@ class Hero extends GameObject
 		this.width = 32;
 		this.height = 32;
 		this.color = '#00a6ef';
+		this.center = Stage.instance.center;
 
-		setTimeout(() => {
-			this.right = Stage.instance.right;
-		}, 500)
+		
 	}
 
 	render()

@@ -53,6 +53,13 @@ class Stage
 	{
 		return this.left + this.width;
 	}
+	get center()
+	{
+		return {
+			x: this.left + (this.width /2),
+			y: this.top + (this.height /2)
+		};
+	}
 	destroy()
 	{
 		Stage.instance = undefined;
