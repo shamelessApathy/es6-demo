@@ -79,3 +79,13 @@ canvas.stage
 	background-color:#111;
 	border-radius:0.25em;
 }
+
+.scoreboard
+{
+	top: 0;
+	right: 0;
+	color:white;
+	font-size:1.25em;
+	position:absolute;
+	z-index:2;
+}
